@@ -1,0 +1,25 @@
+{
+  "name": "gazira-sys-tip",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "system tip's bar",
+  "keywords": [
+    "tip"
+  ],
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      "jquery": "1.11.1",
+      "arale-widget": "1.2.0",
+      "arale-sticky": "1.4.0"
+    },
+    "devDependencies": {},
+    "tests": "",
+    "ignore": [
+      "components",
+        "dist",
+        "spm_modules"
+    ],
+    "buildArgs": ""
+  }
+}
