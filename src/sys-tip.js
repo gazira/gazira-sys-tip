@@ -112,10 +112,11 @@ var Tip = Widget.extend({
      * 失败消息可调用这个
      * @param text
      */
-    error: function (text) {
+    error: function (text, always) {
         return this.show({
             text: text,
-            cls: 'alert-danger'
+            cls: 'alert-danger',
+            always: always !== false
         });
     }
 });
