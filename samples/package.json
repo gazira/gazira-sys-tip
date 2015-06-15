@@ -7,7 +7,7 @@
     "buildArgs": "--standalone --global jquery:jQuery",
     "dependencies": {
       "jquery": "1.11.1",
-      "gazira-sys-tip": "0.0.1"
+      "gazira-sys-tip": "0.0.2"
     },
     "devDependencies": {},
     "tests": "",
